@@ -15482,8 +15482,7 @@ function Home() {
 }
 function Router() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(Switch, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", component: Home }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/AI-tools-dictionary/", component: Home }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/*", component: Home }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { component: NotFound })
   ] });
 }
